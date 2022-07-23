@@ -1,0 +1,43 @@
+@import url(//db.onlinewebfonts.com/c/44a21eecd860f09edafc460507831238?family=The+Avengers);
+*{
+    margin: 5px;
+    background-color: beige;
+
+}
+
+.main_container{
+    display: flex;
+    align-items: center;
+
+    
+}
+nav ul li{
+    display:inline-block;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 2vh 5vw;
+    
+}
+nav ul li a{
+    list-style-type:none;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    font-family: "The Avengers";
+    font-size: 8vw;
+    font-weight: 550;
+
+}
+#logo{
+    padding-bottom: 10%;
+}
+.main_content{
+    background: rgba(0, 0, 0, 0.6)url("https://wallpaperaccess.com/full/889066.jpg");
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
