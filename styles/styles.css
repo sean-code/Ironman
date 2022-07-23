@@ -1,14 +1,14 @@
 @import url(//db.onlinewebfonts.com/c/44a21eecd860f09edafc460507831238?family=The+Avengers);
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    /* CSS */
+}
 *{
     margin: 5px;
-    background-color: beige;
-
 }
-
 .main_container{
     display: flex;
     align-items: center;
-
+    background-color: indigo;
     
 }
 nav ul li{
@@ -23,6 +23,12 @@ nav ul li a{
     list-style-type:none;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: x-large;
+}
+nav ul li a:hover{
+    color:brown;
+
 }
 
 .logo{
@@ -35,9 +41,41 @@ nav ul li a{
     padding-bottom: 10%;
 }
 .main_content{
-    background: rgba(0, 0, 0, 0.6)url("https://wallpaperaccess.com/full/889066.jpg");
-    background-blend-mode: darken;
+    padding: 8%;
+    background:rgba(36, 9, 59, 0.7)url("../images/ironman.jpg");
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 90vh;
+}
+.main_content{
+    color: white;
+    text-align: left;
+    font-size: xx-large;
+}
+.main_content a{
+    color: yellowgreen;
+    text-decoration: none;
+    font-family: "The Avengers";
+    font-size: larger
+}
+.main_content>h1{
+    font-weight: 900;
+}
+.main_content p{
+    padding-top: 6%;
+}
+.follow a:hover{
+    color:brown;
+}
+.follow{
+    color: yellowgreen;
+    padding:1%;
+    border-radius: 10%;
+}
+.follow a{
+    text-decoration: none;
+    color: deeppink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
 }
